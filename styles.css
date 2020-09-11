@@ -1,0 +1,32 @@
+body {
+    background: linear-gradient(to right, #614385, #516395);
+}
+
+#container {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 250px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+#rock, #paper, #scissor {
+    margin-right: 45px;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+#results {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 60px;
+    margin-top: 40px;
+    color: white;
+}
